@@ -36,3 +36,8 @@ C:\Users\brandonm\source\repos\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Rel
 \\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaSoupsWebAPI.RazorTargetAssemblyInfo.cache
 \\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaSoupsWebAPI.dll
 \\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaSoupsWebAPI.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Release\netcoreapp2.1\rhel.7.2-x64\CopenhagenSoupCrawler.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Release\netcoreapp2.1\rhel.7.2-x64\CopenhagenSoupCrawler.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSLambdaSoupsWebAPI.csproj.CopyComplete
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSDynamoDBConnector.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSDynamoDBConnector.pdb

@@ -12,17 +12,3 @@ C:\Users\brandonm\source\repos\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Deb
 C:\Users\brandonm\source\repos\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.dll
 C:\Users\brandonm\source\repos\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.pdb
 C:\Users\brandonm\source\repos\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.csprojAssemblyReference.cache
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.csprojAssemblyReference.cache
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.csproj.CoreCompileInputs.cache
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.RazorAssemblyInfo.cache
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.RazorAssemblyInfo.cs
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.AssemblyInfoInputs.cache
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.AssemblyInfo.cs
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.dll
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.pdb
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.deps.json
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.runtimeconfig.json
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.runtimeconfig.dev.json
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.dll
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\bin\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.pdb
-\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSLambdaSoupsWebAPI\obj\Debug\netcoreapp2.1\AWSLambdaSoupsWebAPI.RazorTargetAssemblyInfo.cache

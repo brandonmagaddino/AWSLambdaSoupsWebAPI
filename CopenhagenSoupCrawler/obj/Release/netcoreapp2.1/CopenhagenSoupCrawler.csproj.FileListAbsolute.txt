@@ -1,0 +1,10 @@
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\bin\Release\netcoreapp2.1\CopenhagenSoupCrawler.deps.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\bin\Release\netcoreapp2.1\CopenhagenSoupCrawler.runtimeconfig.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\bin\Release\netcoreapp2.1\CopenhagenSoupCrawler.runtimeconfig.dev.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\bin\Release\netcoreapp2.1\CopenhagenSoupCrawler.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\bin\Release\netcoreapp2.1\CopenhagenSoupCrawler.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\obj\Release\netcoreapp2.1\CopenhagenSoupCrawler.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\obj\Release\netcoreapp2.1\CopenhagenSoupCrawler.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\obj\Release\netcoreapp2.1\CopenhagenSoupCrawler.AssemblyInfo.cs
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\obj\Release\netcoreapp2.1\CopenhagenSoupCrawler.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\CopenhagenSoupCrawler\obj\Release\netcoreapp2.1\CopenhagenSoupCrawler.pdb

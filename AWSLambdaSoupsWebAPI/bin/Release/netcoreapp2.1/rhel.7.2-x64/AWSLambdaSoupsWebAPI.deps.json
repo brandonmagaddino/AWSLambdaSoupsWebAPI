@@ -9,9 +9,11 @@
     ".NETCoreApp,Version=v2.1/rhel.7.2-x64": {
       "AWSLambdaSoupsWebAPI/1.0.0": {
         "dependencies": {
+          "AWSDynamoDBConnector": "1.0.0",
           "AWSSDK.Extensions.NETCore.Setup": "3.3.100.1",
           "AWSSDK.S3": "3.3.102.15",
           "Amazon.Lambda.AspNetCoreServer": "3.1.0",
+          "CopenhagenSoupCrawler": "1.0.0",
           "HtmlAgilityPack": "1.11.16",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "2.1.1"
         },
@@ -20,6 +22,9 @@
         }
       },
       "Amazon.Lambda.APIGatewayEvents/1.2.0": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
         "runtime": {
           "lib/netstandard2.0/Amazon.Lambda.APIGatewayEvents.dll": {
             "assemblyVersion": "1.0.0.0",
@@ -41,7 +46,8 @@
           "Amazon.Lambda.ApplicationLoadBalancerEvents": "1.0.0",
           "Amazon.Lambda.Core": "1.1.0",
           "Amazon.Lambda.Logging.AspNetCore": "2.3.0",
-          "Amazon.Lambda.Serialization.Json": "1.5.0"
+          "Amazon.Lambda.Serialization.Json": "1.5.0",
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Amazon.Lambda.AspNetCoreServer.dll": {
@@ -71,7 +77,8 @@
       },
       "Amazon.Lambda.Serialization.Json/1.5.0": {
         "dependencies": {
-          "Amazon.Lambda.Core": "1.1.0"
+          "Amazon.Lambda.Core": "1.1.0",
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Amazon.Lambda.Serialization.Json.dll": {
@@ -80,17 +87,28 @@
           }
         }
       },
-      "AWSSDK.Core/3.3.102.6": {
+      "AWSSDK.Core/3.3.103.57": {
         "runtime": {
           "lib/netstandard2.0/AWSSDK.Core.dll": {
             "assemblyVersion": "3.3.0.0",
-            "fileVersion": "3.3.102.6"
+            "fileVersion": "3.3.103.57"
+          }
+        }
+      },
+      "AWSSDK.DynamoDBv2/3.3.101.83": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.103.57"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.DynamoDBv2.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.101.83"
           }
         }
       },
       "AWSSDK.Extensions.NETCore.Setup/3.3.100.1": {
         "dependencies": {
-          "AWSSDK.Core": "3.3.102.6"
+          "AWSSDK.Core": "3.3.103.57"
         },
         "runtime": {
           "lib/netstandard2.0/AWSSDK.Extensions.NETCore.Setup.dll": {
@@ -101,12 +119,23 @@
       },
       "AWSSDK.S3/3.3.102.15": {
         "dependencies": {
-          "AWSSDK.Core": "3.3.102.6"
+          "AWSSDK.Core": "3.3.103.57"
         },
         "runtime": {
           "lib/netstandard2.0/AWSSDK.S3.dll": {
             "assemblyVersion": "3.3.0.0",
             "fileVersion": "3.3.102.15"
+          }
+        }
+      },
+      "AWSSDK.SimpleDB/3.3.100.92": {
+        "dependencies": {
+          "AWSSDK.Core": "3.3.103.57"
+        },
+        "runtime": {
+          "lib/netstandard2.0/AWSSDK.SimpleDB.dll": {
+            "assemblyVersion": "3.3.0.0",
+            "fileVersion": "3.3.100.92"
           }
         }
       },
@@ -145,6 +174,7 @@
           }
         }
       },
+      "Microsoft.NETCore.Platforms/3.0.0": {},
       "Microsoft.VisualStudio.Web.CodeGeneration/2.1.1": {
         "dependencies": {
           "Microsoft.VisualStudio.Web.CodeGeneration.EntityFrameworkCore": "2.1.1"
@@ -157,6 +187,9 @@
         }
       },
       "Microsoft.VisualStudio.Web.CodeGeneration.Contracts/2.1.1": {
+        "dependencies": {
+          "Newtonsoft.Json": "12.0.2"
+        },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Contracts.dll": {
             "assemblyVersion": "2.1.1.0",
@@ -166,7 +199,8 @@
       },
       "Microsoft.VisualStudio.Web.CodeGeneration.Core/2.1.1": {
         "dependencies": {
-          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.1"
+          "Microsoft.VisualStudio.Web.CodeGeneration.Templating": "2.1.1",
+          "Newtonsoft.Json": "12.0.2"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGeneration.Core.dll": {
@@ -212,6 +246,7 @@
         "dependencies": {
           "Microsoft.CodeAnalysis.CSharp.Workspaces": "2.8.0",
           "Microsoft.VisualStudio.Web.CodeGeneration.Contracts": "2.1.1",
+          "Newtonsoft.Json": "12.0.2",
           "NuGet.Frameworks": "4.7.0"
         },
         "runtime": {
@@ -229,6 +264,14 @@
           "lib/netstandard2.0/Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll": {
             "assemblyVersion": "2.1.1.0",
             "fileVersion": "2.1.1.18157"
+          }
+        }
+      },
+      "Newtonsoft.Json/12.0.2": {
+        "runtime": {
+          "lib/netstandard2.0/Newtonsoft.Json.dll": {
+            "assemblyVersion": "12.0.0.0",
+            "fileVersion": "12.0.2.23222"
           }
         }
       },
@@ -300,19 +343,97 @@
           }
         }
       },
+      "System.Configuration.ConfigurationManager/4.6.0": {
+        "dependencies": {
+          "System.Security.Cryptography.ProtectedData": "4.6.0",
+          "System.Security.Permissions": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
       "System.Linq.Parallel/4.3.0": {},
       "System.Net.Http/4.3.2": {
         "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
           "System.Net.Primitives": "4.3.0"
         }
       },
-      "System.Net.Primitives/4.3.0": {},
+      "System.Net.Primitives/4.3.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        }
+      },
+      "System.Security.AccessControl/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0",
+          "System.Security.Principal.Windows": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.AccessControl.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.Cryptography.ProtectedData/4.6.0": {
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Cryptography.ProtectedData.dll": {
+            "assemblyVersion": "4.0.4.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.Permissions/4.6.0": {
+        "dependencies": {
+          "System.Security.AccessControl": "4.6.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Security.Permissions.dll": {
+            "assemblyVersion": "4.0.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
+      "System.Security.Principal.Windows/4.6.0": {
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "3.0.0"
+        },
+        "runtime": {
+          "runtimes/unix/lib/netcoreapp2.1/System.Security.Principal.Windows.dll": {
+            "assemblyVersion": "4.1.2.0",
+            "fileVersion": "4.700.19.46214"
+          }
+        }
+      },
       "System.Xml.XPath.XmlDocument/4.3.0": {
         "runtime": {
           "lib/netstandard1.3/System.Xml.XPath.XmlDocument.dll": {
             "assemblyVersion": "4.0.2.0",
             "fileVersion": "4.6.24705.1"
           }
+        }
+      },
+      "AWSDynamoDBConnector/1.0.0": {
+        "dependencies": {
+          "AWSSDK.DynamoDBv2": "3.3.101.83",
+          "AWSSDK.SimpleDB": "3.3.100.92",
+          "Newtonsoft.Json": "12.0.2",
+          "System.Configuration.ConfigurationManager": "4.6.0"
+        },
+        "runtime": {
+          "AWSDynamoDBConnector.dll": {}
+        }
+      },
+      "CopenhagenSoupCrawler/1.0.0": {
+        "dependencies": {
+          "HtmlAgilityPack": "1.11.16"
+        },
+        "runtime": {
+          "CopenhagenSoupCrawler.dll": {}
         }
       }
     }
@@ -365,12 +486,19 @@
       "path": "amazon.lambda.serialization.json/1.5.0",
       "hashPath": "amazon.lambda.serialization.json.1.5.0.nupkg.sha512"
     },
-    "AWSSDK.Core/3.3.102.6": {
+    "AWSSDK.Core/3.3.103.57": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-7p8ZiQmfvo36dceEJmfuP3uk2EqzJqd2+e0Re38xwBvuKLPa0M67RBJGTaOXBKRgfPUSvZfkjxsnYCsQPxB9zw==",
-      "path": "awssdk.core/3.3.102.6",
-      "hashPath": "awssdk.core.3.3.102.6.nupkg.sha512"
+      "sha512": "sha512-/BgD+ZGKNL1TE3X3KOaxI2Nuw/+gU3I7K+wYyiV5g15hGulcG8cgYae5fHX5ElkTzdkwAtjIzBb/KfviYk84Aw==",
+      "path": "awssdk.core/3.3.103.57",
+      "hashPath": "awssdk.core.3.3.103.57.nupkg.sha512"
+    },
+    "AWSSDK.DynamoDBv2/3.3.101.83": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-WcezJh1cotKpoCV8PBB1JXzav0jkjg539AKwmVrc4vOdraKtp/wzAJWK0scVkIwkC8J/awonXauX11K+XlzcJQ==",
+      "path": "awssdk.dynamodbv2/3.3.101.83",
+      "hashPath": "awssdk.dynamodbv2.3.3.101.83.nupkg.sha512"
     },
     "AWSSDK.Extensions.NETCore.Setup/3.3.100.1": {
       "type": "package",
@@ -385,6 +513,13 @@
       "sha512": "sha512-Oga6yGBjPlkQW5GsYCQpyhJgoFjSsUtbbiPC9FMjDH4WXWwadBupIAyn1TQTBAgHLmmfR/EBVl/WfmnZiIzYWw==",
       "path": "awssdk.s3/3.3.102.15",
       "hashPath": "awssdk.s3.3.3.102.15.nupkg.sha512"
+    },
+    "AWSSDK.SimpleDB/3.3.100.92": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1kKu+OtVpTerpXlE8EcTO0Sz4cFcSUPC2bfNWbwcWK8ym2vopYDmH83qBti2SvyI2E8UjpCWHjLYSrmfQLhG/w==",
+      "path": "awssdk.simpledb/3.3.100.92",
+      "hashPath": "awssdk.simpledb.3.3.100.92.nupkg.sha512"
     },
     "HtmlAgilityPack/1.11.16": {
       "type": "package",
@@ -406,6 +541,13 @@
       "sha512": "sha512-AqCiNju6UZy9Sd8HKzxGbpbZf+P8gWpojfvs9hIRfwstqFMZ6OJXf69EUvqJ5C4rWrcf08F7G8WII74KBEFImQ==",
       "path": "microsoft.codeanalysis.workspaces.common/2.8.0",
       "hashPath": "microsoft.codeanalysis.workspaces.common.2.8.0.nupkg.sha512"
+    },
+    "Microsoft.NETCore.Platforms/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-TsETIgVJb/AKoYfSP+iCxkuly5d3inZjTdx/ItZLk2CxY85v8083OBS3uai84kK3/baLnS5/b5XGs6zR7SuuHQ==",
+      "path": "microsoft.netcore.platforms/3.0.0",
+      "hashPath": "microsoft.netcore.platforms.3.0.0.nupkg.sha512"
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/2.1.1": {
       "type": "package",
@@ -463,6 +605,13 @@
       "path": "microsoft.visualstudio.web.codegenerators.mvc/2.1.1",
       "hashPath": "microsoft.visualstudio.web.codegenerators.mvc.2.1.1.nupkg.sha512"
     },
+    "Newtonsoft.Json/12.0.2": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-rTK0s2EKlfHsQsH6Yx2smvcTCeyoDNgCW7FEYyV01drPlh2T243PR2DiDXqtC5N4GDm4Ma/lkxfW5a/4793vbA==",
+      "path": "newtonsoft.json/12.0.2",
+      "hashPath": "newtonsoft.json.12.0.2.nupkg.sha512"
+    },
     "NuGet.Frameworks/4.7.0": {
       "type": "package",
       "serviceable": true,
@@ -512,6 +661,13 @@
       "path": "system.composition.typedparts/1.0.31",
       "hashPath": "system.composition.typedparts.1.0.31.nupkg.sha512"
     },
+    "System.Configuration.ConfigurationManager/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gkNklXxdmB3r4SQTUzRhESZAb3MotgDz24XYi2R/bIjJ10SF0KHJ/qTEwi9CLyIAOTjmCo8Vx8+rKldLaiW7Ig==",
+      "path": "system.configuration.configurationmanager/4.6.0",
+      "hashPath": "system.configuration.configurationmanager.4.6.0.nupkg.sha512"
+    },
     "System.Linq.Parallel/4.3.0": {
       "type": "package",
       "serviceable": true,
@@ -533,12 +689,50 @@
       "path": "system.net.primitives/4.3.0",
       "hashPath": "system.net.primitives.4.3.0.nupkg.sha512"
     },
+    "System.Security.AccessControl/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-gmlk6khICtVhiUnVBBtlsH0H/5QFDqhTZgtpp3AX14wWE6OIE+BX95NLD+X4AolXnIy/oXpNNmXYnsNfW1KuDQ==",
+      "path": "system.security.accesscontrol/4.6.0",
+      "hashPath": "system.security.accesscontrol.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Cryptography.ProtectedData/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-zdCsTOakmbAQVyOI6+ZadvXZgzSiFiY5nXAfGUQNGrz3ofc9sjehpXRvqYb3vWUsvloYFILSpiQCjiZVFKRBjA==",
+      "path": "system.security.cryptography.protecteddata/4.6.0",
+      "hashPath": "system.security.cryptography.protecteddata.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Permissions/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-W3Uxog9KCZAmGYsOFHgJnb7L2q+SDbxS3vGnFHmErUnXuIjWYpIh1KVTlua7qmPdrlRCkAcTF9dImv+jciBPOQ==",
+      "path": "system.security.permissions/4.6.0",
+      "hashPath": "system.security.permissions.4.6.0.nupkg.sha512"
+    },
+    "System.Security.Principal.Windows/4.6.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-Mdukseovp0YIGaz16FMH6nbfgZkrCFOJbtXQptv0aeBO9h775Ilb9+TDwLVTKikoW7y7CY7lpoXl9zmZ5G3ndA==",
+      "path": "system.security.principal.windows/4.6.0",
+      "hashPath": "system.security.principal.windows.4.6.0.nupkg.sha512"
+    },
     "System.Xml.XPath.XmlDocument/4.3.0": {
       "type": "package",
       "serviceable": true,
       "sha512": "sha512-A/uxsWi/Ifzkmd4ArTLISMbfFs6XpRPsXZonrIqyTY70xi8t+mDtvSM5Os0RqyRDobjMBwIDHDL4NOIbkDwf7A==",
       "path": "system.xml.xpath.xmldocument/4.3.0",
       "hashPath": "system.xml.xpath.xmldocument.4.3.0.nupkg.sha512"
+    },
+    "AWSDynamoDBConnector/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CopenhagenSoupCrawler/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

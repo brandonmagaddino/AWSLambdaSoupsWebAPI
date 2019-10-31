@@ -1,0 +1,10 @@
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Release\netcoreapp2.1\AWSDynamoDBConnector.deps.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Release\netcoreapp2.1\AWSDynamoDBConnector.runtimeconfig.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Release\netcoreapp2.1\AWSDynamoDBConnector.runtimeconfig.dev.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Release\netcoreapp2.1\AWSDynamoDBConnector.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Release\netcoreapp2.1\AWSDynamoDBConnector.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Release\netcoreapp2.1\AWSDynamoDBConnector.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Release\netcoreapp2.1\AWSDynamoDBConnector.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Release\netcoreapp2.1\AWSDynamoDBConnector.AssemblyInfo.cs
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Release\netcoreapp2.1\AWSDynamoDBConnector.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Release\netcoreapp2.1\AWSDynamoDBConnector.pdb

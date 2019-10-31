@@ -3,8 +3,8 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using AWSLambdaSoupsWebAPI.Crawler;
 using AWSLambdaSoupsWebAPI.Models;
+using CopenhagenSoupCrawler;
 
 namespace AWSLambdaSoupsWebAPI.Controllers
 {
@@ -16,18 +16,33 @@ namespace AWSLambdaSoupsWebAPI.Controllers
         [HttpGet]
         public string Get()
         {
-            SoupCrawler soupCrawler = new SoupCrawler();
+            try
+            {
+                AWSDynamoDBConnector.DynamoConnection dynamoConnection = new AWSDynamoDBConnector.DynamoConnection();
 
-            return String.Join("\n", soupCrawler.GetTodaysSoups().Select(arg => arg.ToString()));
+                var LatestSoupUpdate = dynamoConnection.GetMostRecentSoup();
+            
+
+                // Move Special soup to end of list
+                List<String> Soups = LatestSoupUpdate.Soups;
+                var specialLoc = Soups.FirstOrDefault(arg => arg.Contains(SoupCrawler.SpecialSoupTitle));
+                if (specialLoc != null && Soups.Remove(specialLoc))
+                {
+                    Soups.Insert(Soups.Count, specialLoc);
+                }
+                
+                return "Last updated " + LatestSoupUpdate.UpdTimeStamp.ToLocalTime().ToString("dddd, MMMM dd h:mm tt") + "\n" + String.Join("\n", Soups);
+            } catch (Exception e)
+            {
+                return "Exception while retreiving DB update: " + e;
+            }
         }
 
         // POST api/soups
         [HttpPost]
         public string Post([FromForm] SlackRequest value)
         {
-            SoupCrawler soupCrawler = new SoupCrawler();
-            
-            return String.Join("\n", soupCrawler.GetTodaysSoups().Select(arg => arg.ToString()));
+            return Get();
         }
     }
 }

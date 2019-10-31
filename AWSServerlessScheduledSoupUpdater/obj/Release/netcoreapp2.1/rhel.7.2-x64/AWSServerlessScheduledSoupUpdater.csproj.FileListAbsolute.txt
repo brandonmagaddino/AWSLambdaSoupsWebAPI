@@ -1,0 +1,15 @@
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.deps.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.runtimeconfig.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.runtimeconfig.dev.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSDynamoDBConnector.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\CopenhagenSoupCrawler.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\AWSDynamoDBConnector.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\bin\Release\netcoreapp2.1\rhel.7.2-x64\CopenhagenSoupCrawler.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.AssemblyInfo.cs
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.csproj.CopyComplete
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSServerlessScheduledSoupUpdater\obj\Release\netcoreapp2.1\rhel.7.2-x64\AWSServerlessScheduledSoupUpdater.pdb
