@@ -1,0 +1,9 @@
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Debug\netcoreapp2.1\AWSDynamoDBConnector.deps.json
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Debug\netcoreapp2.1\AWSDynamoDBConnector.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\bin\Debug\netcoreapp2.1\AWSDynamoDBConnector.pdb
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Debug\netcoreapp2.1\AWSDynamoDBConnector.csprojAssemblyReference.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Debug\netcoreapp2.1\AWSDynamoDBConnector.csproj.CoreCompileInputs.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Debug\netcoreapp2.1\AWSDynamoDBConnector.AssemblyInfoInputs.cache
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Debug\netcoreapp2.1\AWSDynamoDBConnector.AssemblyInfo.cs
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Debug\netcoreapp2.1\AWSDynamoDBConnector.dll
+\\Mac\Home\Desktop\AWSLambdaSoupsWebAPI\AWSDynamoDBConnector\obj\Debug\netcoreapp2.1\AWSDynamoDBConnector.pdb

@@ -17,15 +17,19 @@ namespace AWSDynamoDBConnector
 {
     public class DynamoConnection
     {
-        private readonly static string accessKey = "";
-        private readonly static string secretKey = ""; // TODO: DO NOT COMMIT
-        private readonly static string tableName = "DailySoupData";
+        private readonly string accessKey;
+        private readonly string secretKey;
+        private readonly string tableName;
 
         private readonly DynamoDBContext context;
         private readonly AmazonDynamoDBClient client;
 
-        public DynamoConnection()
+        public DynamoConnection(string accessKey, string secretKey, string tableName)
         {
+            this.accessKey = accessKey;
+            this.secretKey = secretKey;
+            this.tableName = tableName;
+
             var credentials = new BasicAWSCredentials(accessKey, secretKey);
             client = new AmazonDynamoDBClient(credentials, RegionEndpoint.USEast1);
 

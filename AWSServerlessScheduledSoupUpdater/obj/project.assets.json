@@ -4545,7 +4545,8 @@
       "Amazon.Lambda.Core >= 1.1.0",
       "Amazon.Lambda.Serialization.Json >= 1.5.0",
       "CopenhagenSoupCrawler >= 1.0.0",
-      "Microsoft.NETCore.App >= 2.1.0"
+      "Microsoft.NETCore.App >= 2.1.0",
+      "Newtonsoft.Json >= 12.0.2"
     ]
   },
   "packageFolders": {
@@ -4613,6 +4614,10 @@
             "target": "Package",
             "version": "[2.1.0, )",
             "autoReferenced": true
+          },
+          "Newtonsoft.Json": {
+            "target": "Package",
+            "version": "[12.0.2, )"
           }
         },
         "imports": [
